@@ -1,0 +1,79 @@
+.persondetail{
+
+    padding-left: 30px;
+
+    .top{
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        background-color: rgb(253, 241, 224);
+        border-radius: 20px;
+
+        .left{
+            flex: 1;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 50px;
+            border-radius: 10px;
+            flex-direction: column;
+            background-color: rgb(255, 247, 235);
+
+            .title{
+                font-size: 24px;
+                color: rgb(97, 96, 96);
+                margin-top: -10px;
+            }
+
+            .editbutton{
+                display: flex;
+                top: 0;
+                right: 0;
+                padding: 1px;
+                padding-top: 0%;
+                padding-left: 95%;
+                padding-top: 0%;
+                font-weight: 200;
+                color: #6a42fa;
+                cursor: pointer;
+            }
+
+            .item{
+                display: flex;
+                gap: 22px;
+
+                .itemImg{
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                .details{
+                    .itemTitle{
+                        margin-bottom: 10px;
+                        color:rgba(121, 9, 9, 0.47)
+                    }
+
+                    .detailItem{
+                        margin-bottom: 5px;
+                        font-size: 16px;
+
+                        .itemKey{
+                            font-weight: bold;
+                            color: rgb(1, 76, 126);
+                            margin-right: 5px;
+                        }
+
+                        .itemValue{
+                            font-weight: 400;
+                            color: rgb(4, 138, 93);
+                        }
+                    }
+                }
+            }
+        }
+
+        .right{
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.table{
+    .heading{
+        .tableCell{
+            font-weight: bold;
+        }
+    }
+
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Active{
+            color: green;
+            background-color: rgba(0, 128, 0, 0.151);
+        }
+
+        &.Inactive{
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 206, 206);
+        }
+    }
+}

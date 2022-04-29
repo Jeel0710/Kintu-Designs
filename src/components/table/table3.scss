@@ -1,0 +1,43 @@
+.table3{
+    padding: 8px;
+
+    .cellWrapper{
+        display: flex;
+        align-items: center;
+
+        .image{
+            width: 105px;
+            height: 60px;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+    }
+
+    .heading{
+        .tableCell{
+            font-weight: bold;
+        }
+    }
+
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Active{
+            color: green;
+            background-color: rgba(0, 128, 0, 0.151);
+        }
+
+        &.Inactive{
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 206, 206);
+        }
+    }
+
+    .tableCell{
+        .icon2{
+            color: red;
+        }
+    }
+
+}

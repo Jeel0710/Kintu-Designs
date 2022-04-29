@@ -1,0 +1,32 @@
+.employee{
+    display: flex;
+    width: 100%;
+
+    .employeeContainer{
+        flex: 7;
+
+        .p-24{
+            background-color: rgb(213, 213, 255);
+
+            .hometitle{
+                padding-left: 35px;
+                padding-bottom: 15px;
+                padding-top: 5px;
+            }
+        }
+
+        .widgets{
+            display: flex;
+            padding: 15px;
+            gap: 20px;
+        }
+
+        .employeedetail{
+            display: flex;
+            padding: 20px;
+            gap: 15px;
+        }
+    }
+
+    
+}

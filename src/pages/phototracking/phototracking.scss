@@ -1,0 +1,38 @@
+.phototracking{
+    display: flex;
+
+    .trackingContainer{
+        flex: 7;
+
+        .p-24{
+            color: rgb(56, 56, 53);
+            background-color: rgb(215, 215, 255);
+
+            .hometitle{
+                padding-left: 35px;
+                padding-bottom: 17px;
+                padding-top: 6px;
+            }
+        }
+
+        .search{
+            display: flex;
+            align-items: center;
+            border: 0.5 solid rgb(197, 195, 195);
+            padding: 30px;
+            
+
+            input{
+                border-color: gray;
+                border-radius: 10px;
+                outline: none;
+                background: transparent;
+                height: 30px;
+
+                &::placeholder{
+                    font-style: 12px;
+                }
+            }
+        }
+    }
+}

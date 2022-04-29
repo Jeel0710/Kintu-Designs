@@ -1,0 +1,36 @@
+.notificationtable{
+    .heading1{
+        .tableCell{
+            font-weight: bold;
+        }
+    }
+
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Delivered{
+            color: rgb(2, 114, 2);
+            background-color: rgba(0, 128, 0, 0.151);
+        }
+
+        &.Failed{
+            color: rgb(255, 0, 0);
+            background-color: rgb(252, 212, 212);
+        }
+    }
+
+    .icon{
+        padding: 2px 5px;
+        padding-top: 13px;
+        padding-bottom: 1px;
+        border-radius: 4px;
+        color: rgb(183, 0, 255);
+        border: 1px solid rgba(203, 141, 228, 0.425);
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(225, 167, 247, 0.425);
+        }
+    }
+}

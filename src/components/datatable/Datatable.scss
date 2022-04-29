@@ -1,0 +1,71 @@
+.datatable{
+    height: 370px;
+    padding: 20px;
+
+    .cellWidthStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Active{
+            background-color: rgba(0, 128, 0, 0.05);
+            color: green;
+        }
+
+        &.Pending{
+            background-color: rgba(255, 217, 0, 0.05);
+            color: rgb(201, 201, 38);
+        }
+
+        &.Inactive{
+            background-color: rgba(255, 0, 0, 0.05);
+            color: crimson;
+        }
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 5px;
+            padding-top: 4px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+            color: rgb(2, 216, 231);
+            border: 1px solid rgba(109, 188, 202, 0.425);
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(49, 78, 83, 0.425);
+            }
+        }
+        .editButton{
+            padding: 2px 5px;
+            padding-top: 4px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+            color: rgb(183, 0, 255);
+            border: 1px solid rgba(203, 141, 228, 0.425);
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(225, 167, 247, 0.425);
+            }
+        }
+
+        .deleteButton{
+            padding: 2px 5px;
+            padding-top: 4px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+            color: red;
+            border: 1px solid rgba(243, 143, 143, 0.425);
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(255, 196, 196, 0.425);
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.dietplantable{
+    height: 370px;
+    padding: 20px;
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 5px;
+            padding-top: 4px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+            color: rgb(2, 216, 231);
+            border: 1px solid rgba(109, 188, 202, 0.425);
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(49, 78, 83, 0.425);
+            }
+        }
+        .editButton{
+            padding: 2px 5px;
+            padding-top: 4px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+            color: rgb(183, 0, 255);
+            border: 1px solid rgba(203, 141, 228, 0.425);
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(225, 167, 247, 0.425);
+            }
+        }
+    }
+}

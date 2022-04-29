@@ -1,0 +1,58 @@
+.reports{
+    display: flex;
+
+    .reportsContainer{
+        flex: 7;
+
+        .p-24{
+            color: rgb(56, 56, 53);
+            background-color: rgb(215, 215, 255);
+
+            .hometitle{
+                padding-left: 35px;
+                padding-bottom: 17px;
+                padding-top: 6px;
+            }
+        }
+
+        .headding1{
+            padding: 25px;
+            gap: 10px;
+
+            .titleContainer01{
+                gap: 10px;
+                border-color: purple;
+            }
+            .titleContainer02{
+                gap: 10px;
+                color: rgb(158, 158, 25);
+                background-color: rgb(255, 255, 205);
+            }
+            .titleContainer03{
+                gap: 10px;
+                color: rgb(31, 145, 16);
+                background-color: rgb(219, 255, 205);
+            }
+            .titleContainer04{
+                gap: 10px;
+                color: rgb(17, 56, 139);
+                background-color: rgb(185, 210, 255);
+            }
+        }
+
+        .title001{
+            padding: 15px;
+
+            .title002{
+                display: flex;
+            }
+
+            .title010{
+                padding: 12px;
+            }
+            .paragraph01{
+                padding-left: 22px;
+            }
+        }
+    }
+}

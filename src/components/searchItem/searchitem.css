@@ -1,0 +1,81 @@
+.searchItem{
+    border: 1px solid lightslategray;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.siImg{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.siTitle{
+    font-size: 30px;
+    color: rgb(87, 87, 255);
+}
+
+.siDistance{
+    font-size: 15px;
+}
+
+.siTaxi0p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.siSubtitle{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.siFeatures{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgba(225, 167, 247, 0.425);
+    color: rgb(148, 1, 206);
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.siDetails{
+    flex: 2;
+}
+
+.siDetailIcon{
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    color: rgb(50, 139, 139);
+    font-weight: bold;
+}
+
+.icon1{
+    color: purple;
+    cursor: pointer;
+}
+
+.icon2{
+    color: orange;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.membership{
+    display: flex;
+
+    .membershipContainer{
+        flex: 7;
+
+        .p-24{
+            color: rgb(39, 39, 37);
+            background-color: rgb(213, 213, 255);
+
+            .hometitle{
+                padding-left: 35px;
+                padding-bottom: 15px;
+                padding-top: 9px;
+            }
+        }
+
+        .mtable{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 15px;
+            background-color: rgb(224, 224, 255);
+
+            .mtitle{
+                font-weight: bold;
+                color: rgb(36, 35, 35);
+                margin-bottom: 15px;
+                display: flex;
+                padding-left: 10px;
+
+                .mbutton{
+                    padding: 10px;
+                    padding-left: 1100px;
+
+                    button{
+                        width: 200px;
+                        height: 40px;
+                        padding: 10px;
+                        border:none;
+                        background-color: rgb(254, 231, 255);
+                        font-weight: bold;
+                        border-radius: 15px;
+                        color: rgb(132, 0, 184);
+                        border: 1px solid rgba(203, 141, 228, 0.425);
+                        margin-top: 5px;
+                        
+        
+                        &:hover{
+                            background-color: rgba(203, 141, 228, 0.425);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

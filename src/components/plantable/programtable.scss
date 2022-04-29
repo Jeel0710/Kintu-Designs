@@ -1,0 +1,46 @@
+.programtable{
+    .heading2{
+        .tableCell{
+            font-weight: bold;
+        }
+    }
+
+    .tableCell1{
+        font-weight: bold;
+        align-items: center;
+        gap: 15px;
+
+        .iconp{
+            gap: 10px;
+            align-items: center;
+
+            .icon1{
+                padding: 2px 5px;
+                padding-top: 13px;
+                padding-bottom: 1px;
+                border-radius: 4px;
+                color: rgb(2, 216, 231);
+                border: 1px solid rgba(109, 188, 202, 0.425);
+                cursor: pointer;
+    
+                &:hover{
+                    background-color: rgb(225, 253, 255);
+                }
+            }
+    
+            .icon2{
+                padding: 2px 5px;
+                padding-top: 13px;
+                padding-bottom: 1px;
+                border-radius: 4px;
+                color: red;
+                border: 1px solid rgba(243, 143, 143, 0.425);
+                cursor: pointer;
+    
+                &:hover{
+                    background-color: rgba(255, 196, 196, 0.425);
+                }
+            }
+        }
+    }
+}
